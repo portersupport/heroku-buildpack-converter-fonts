@@ -1,0 +1,16 @@
+api = "0.4"
+
+[buildpack]
+id = "portersupport/heroku-buildpack-converter-fonts"
+version = "0.1"
+name = "heroku converter fonts"
+homepage = "https://github.com/portersupport/heroku-buildpack-converter-fonts"
+
+[[buildpack.licenses]]
+type = "MIT"
+
+[[stacks]]
+id = "heroku-18"
+
+[[stacks]]
+id = "heroku-20"
